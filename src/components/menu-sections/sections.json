@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_menu_sections_sections",
+  "info": {
+    "displayName": "sections",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "displayName": "menu_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-item.menu-item"
+    }
+  }
+}
