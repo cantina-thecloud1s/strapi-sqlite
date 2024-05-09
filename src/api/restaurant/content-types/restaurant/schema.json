@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurants",
+  "info": {
+    "singularName": "restaurant",
+    "pluralName": "restaurants",
+    "displayName": "Restaurant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "opening_hours": {
+      "displayName": "opening_hours",
+      "type": "component",
+      "repeatable": true,
+      "component": "opening-hours.opening-hours"
+    },
+    "socials": {
+      "displayName": "socials",
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.socials"
+    },
+    "api_keys": {
+      "displayName": "api_keys",
+      "type": "component",
+      "repeatable": true,
+      "component": "api-key.api-keys"
+    }
+  }
+}

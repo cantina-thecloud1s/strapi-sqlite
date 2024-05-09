@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_api_key_api_keys",
+  "info": {
+    "displayName": "api_keys",
+    "icon": "key"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}
